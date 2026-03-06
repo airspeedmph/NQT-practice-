@@ -16,5 +16,10 @@ class TakingInputWithBufferedReader{
         System.out.println("enter you age and press enter");
         int age =Integer.parseInt (br.readLine());
         System.out.println(age);
+        
+        //taking float input from buffered reader 
+        System.out.println("enter the number is float ");
+        float f = Float.parseFloat(br.readLine());
+        System.out.println(f);
     }
 }
