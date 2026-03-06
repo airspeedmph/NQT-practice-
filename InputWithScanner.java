@@ -18,5 +18,12 @@ class InputWithScanner{
         /// IMP taking first character as an input 
         // here the next method takes whole line input unitl the whitespace and then the charat method extracts the is  first character from the 0th position 
         char c = input.next().charAt(0);
+        System.out.println(c);
+        
+        
+        System.out.println("this is the printing statement ");
+        
+        //this closes the input stream 
+        input.close();
     }
 }
