@@ -7,5 +7,7 @@ class Demo {
        
        System.out.println(a + "thsis is the integer ");
        input.close();
+       
+       // this is the new type of code 
    }
 }
