@@ -16,9 +16,9 @@ public class PalindromeOrNot{
                 
             }
             if (x == org ){
-                System.out.println(" the number is palindrome");
+                System.out.println(" the number" + org + " is palindrome" + " the reversed num is "+ x);
             }else {
-                System.out.println ( " the num is not palindrom ");
+                System.out.println ( " the num " + org  + " is not palindrom " + " the reversed num is "+ x );
             }
         }
     public static void main ( String []args ){
