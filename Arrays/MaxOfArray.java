@@ -9,6 +9,7 @@ public class MaxOfArray {
         for ( int i = 0 ; i <num.length ; i ++) {
             if ( ans < num [ i]){
                 ans = num[i];
+                
             }
 
         }
@@ -17,5 +18,6 @@ public class MaxOfArray {
     public static void main ( String []args ){
         int [] b = {12 , 5 , 56 , -1 , 0 };
         maxOfArray(b);
+        
     }
 }
