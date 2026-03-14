@@ -1,4 +1,4 @@
-package Arrays.DemoPackage;
+// package Arrays.DemoPackage;
 
 class DemoTest {
     
