@@ -1,7 +1,7 @@
 public class LastOccurance{
     
     public static int lastOccurance ( int []arr , int num ){
-        int occ = 0; 
+        int occ = -1; 
         for ( int i = 0 ; i < arr.length; i ++ ){
             if ( arr[i]==num ){
                 occ = i ; 
